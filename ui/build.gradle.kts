@@ -41,7 +41,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":clipboard"))
+    implementation(project(":clipboard-api"))
     implementation("com.google.dagger:hilt-android:2.51.1")
     kapt("com.google.dagger:hilt-android-compiler:2.51.1")
 
